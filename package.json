@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-ci-cd-project",
+  "version": "1.0.0",
+  "description": "Node.js project for CI/CD pipeline",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "sonar-scanner": "^3.0.0"
+  },
+  "dependencies": {
+    "express": "^4.0.0",
+    "supertest": "^6.0.0"
+  }
+}
